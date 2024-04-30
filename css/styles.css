@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.egyptian-gods{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1em;
+}
+.container{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+nav{
+    border-bottom: 1px solid slategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width: 70px;
+    margin: 10px 0 20px 10px;
+    display: inline;
+}
+img{
+    width: 350px;
+    aspect-ratio: 1/1;
+}
+header{
+    border-bottom: 2px slateblue solid;
+}
